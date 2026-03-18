@@ -1,0 +1,87 @@
+# Publications — add new entries at the top of this list.
+# Fields: authors, title, venue, year, note (optional)
+# Use "**Jaya Narain**" to bold Jaya's name in the authors string.
+# note: use for co-first authorship (*) or research mentor role.
+
+- authors: "Maxwell A Xu, **Jaya Narain**, Gregory Darnell, Haraldur Hallgrimsson, Hyewon Jeong, Darren Forde, Richard Fineman, Karthik J Raghuram, James M Rehg, Shirley Ren"
+  title: "RelCon: Relative Contrastive Learning for a Motion Foundation Model for Wearable Data"
+  venue: "ICLR"
+  year: 2025
+  note: "research mentor"
+
+- authors: "**Jaya Narain**, Vasudha Kowtha, Colin Lea, Lauren Tooley, Dianna Yee, Vikram Mitra, Zifang Huang, Miquel Espi Marques, Jon Huang, Carlos Avendano, Shirley Ren"
+  title: "Voice Quality Dimensions as Interpretable Primitives for Speaking Style for Atypical Speech and Affect"
+  venue: "Interspeech"
+  year: 2025
+
+- authors: "**Jaya Narain**, Amrit Romana, Vikram Mitra, Colin Lea, Shirley Ren"
+  title: "Affect Models Have Weak Generalizability to Atypical Speech"
+  venue: "Interspeech"
+  year: 2025
+
+- authors: "**Jaya Narain**, Zakaria Aldeneh, Shirley Ren"
+  title: "Speech Foundation Models Generalize to Time Series Tasks from Wearable Sensor Data"
+  venue: "Workshop on Learning from Time Series for Health, NeurIPS"
+  year: 2025
+
+- authors: "Juyeon Heo, Christina Heinze-Deml, Shirley Ren, Oussama Elachqar, Udhay Nallasamy, Andy Miller, **Jaya Narain**"
+  title: "How Consistent Are LLMs Internally When They Follow Instructions?"
+  venue: "Preprint"
+  year: 2025
+  note: "primary research mentor"
+
+- authors: "Juyeon Heo, Miao Xiong, Christina Heinze-Deml, **Jaya Narain**"
+  title: "Do LLMs Estimate Uncertainty Well in Instruction-Following?"
+  venue: "Preprint"
+  year: 2025
+  note: "primary research mentor"
+
+- authors: "Ilker Demirel, Karan Thakkar, Benjamin Elizalde, Miquel Espi Marques, Shirley Ren, **Jaya Narain**"
+  title: "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition"
+  venue: "Workshop on Learning from Time Series for Health, NeurIPS"
+  year: 2025
+  note: "primary research mentor"
+
+- authors: "Amrit Romana, **Jaya Narain**, Tien Dung Tran, Andrea Davis, Jason Fong, Ramya Rasipuram, Vikram Mitra"
+  title: "Switchboard Affect: Emotion Perception Labels from Conversational Speech"
+  venue: "ACII"
+  year: 2024
+
+- authors: "**Jaya Narain**&#42;, Jenny Sun&#42;, Oussama Elachqar, Haraldur Hallgrimsson, Feng Zhu, Shirley Ren"
+  title: "Leveraging Periodicity for Robustness with Multi-modal Mood Pattern Models"
+  venue: "Workshop on Time Series in the Age of Large Models, NeurIPS"
+  year: 2024
+  note: "*equal contribution"
+
+- authors: "Colin Lea&#42;, Dianna Yee&#42;, **Jaya Narain**, Zifang Huang, Lauren Tooley, Jeffrey Bigham, Leah Findlater"
+  title: "Latent Phrase Matching for Dysarthric Speech"
+  venue: "Interspeech"
+  year: 2023
+  note: "*equal contribution"
+
+- authors: "Colin Lea, Zifang Huang, **Jaya Narain**, Lauren Tooley, Dianna Yee, Dung Tien Tran, Panayiotis Georgiou, Jeffrey Bigham, Leah Findlater"
+  title: "From User Perceptions to Technical Improvement: Enabling People Who Stutter to Better Use Speech Recognition"
+  venue: "CHI"
+  year: 2023
+
+- authors: "Kristina T. Johnson&#42;, **Jaya Narain**&#42;, Thomas Quatieri, Pattie Maes, Rosalind Picard"
+  title: "ReCANVo: A Database of Real-World Communicative and Affective Nonverbal Vocalizations"
+  venue: "Nature Scientific Data"
+  year: 2023
+  note: "*equal contribution"
+
+- authors: "**Jaya Narain**, Kristina T. Johnson, Thomas Quatieri, Rosalind Picard, Pattie Maes"
+  title: "Modeling Real-World Affective and Communicative Nonverbal Vocalizations From Minimally Speaking Individuals"
+  venue: "IEEE Transactions on Affective Computing"
+  year: 2022
+
+- authors: "**Jaya Narain**, Ishwarya Ananthabhotla, Samuel Mendez, Cameron Taylor, Hosea Siu, Lora Brugnaro, Adriana Mallozzi"
+  title: "ATHack: Co-Design and Education in Assistive Technology Development"
+  venue: "Extended Abstracts, CHI"
+  year: 2020
+
+- authors: "**Jaya Narain**&#42;, Tina Quach&#42;, Monique Davey&#42;, Hae Won Park, Cynthia Breazeal, Rosalind Picard"
+  title: "Promoting Wellbeing with Sunny, a Chatbot that Facilitates Positive Messages within Social Groups"
+  venue: "Extended Abstracts, CHI"
+  year: 2020
+  note: "*equal contribution"
