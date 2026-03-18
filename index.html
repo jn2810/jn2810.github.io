@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<!-- ============================================================
+     ABOUT SECTION
+     Edit the bio paragraphs below to update the bio.
+     The photo, CV link, and Scholar link are also here.
+     ============================================================ -->
+<section id="about">
+  <div class="about-grid">
+
+    <div class="about-photo">
+      <img src="{{ site.baseurl }}/assets/img/jaya_photo.jpeg" alt="Jaya Narain">
+    </div>
+
+    <div class="about-text">
+      <h1 class="about-name">Jaya Narain</h1>
+      <p class="about-title">Sr. Research Scientist, Apple Health AI</p>
+
+      <!-- ── BIO TEXT — edit here ── -->
+      <div class="about-bio">
+        <p>
+          I am a Senior Research Scientist at Apple Health AI, where I work on applied machine learning for health and accessibility.  I work with topics and domains across these areas — most recently with sensor foundation models and atypical speech.  I was a technical leader for the motion foundation model in Air Pods Pro 3 and also worked on machine learning for the Adaptive Voice Shortcuts accessibility.  My research has also focused on affective computing with sensors and speech, and understanding the mechanics of LLM instruction-following.
+        </p>
+        <p>
+ I completed my PhD in the Fluid Interfaces Group at the MIT Media Lab and hold an MS in Mechanical Engineering and a BS in Mechanical & Ocean Engineering from MIT. I was an Apple PhD Scholar in AI for Health & Wellness and an NSF Graduate Research Fellow.   My research focused on modeling and human-centered design for communication tools with nonverbal vocalizations for communicators who did not use typical verbal speech.  I co-founded the MIT Assistive Technology Hackathon (ATHack) in 2013 and led the program for eight years, which brought together engineers, designers, and people with disabilities to learn together and co-create assistive technology prototypes. 
+        </p>
+   
+      </div>
+      <!-- ── END BIO TEXT ── -->
+
+      <div class="about-links">
+        <a class="btn" href="{{ site.baseurl }}/assets/cv/Jaya_Narain_CV_2026_March18.pdf" download>CV ↓</a>
+        <a class="btn" href="https://scholar.google.com/citations?hl=en&user=OLI7LWAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/jaya-narain-5b6b0963" target="_blank">LinkedIn ↗</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PUBLICATIONS SECTION
+     Add new papers in _data/publications.yml (one YAML block per paper).
+     ============================================================ -->
+<section id="publications">
+  <h2 class="section-title">Selected Publications</h2>
+  <p class="section-subtitle"><a href="https://scholar.google.com/citations?hl=en&user=OLI7LWAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Full list on Google Scholar ↗</a></p>
+  <ul class="pub-list">
+    {% for pub in site.data.publications %}
+    <li class="pub-item">
+      <div class="pub-row">
+        <span class="pub-year">{{ pub.year }}</span>
+        <div class="pub-content">
+          <div class="pub-title">{{ pub.title }}</div>
+          <div class="pub-authors">{{ pub.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip }}</div>
+          <span class="pub-venue">{{ pub.venue }}</span>
+          {% if pub.note %}<span class="pub-note">— {{ pub.note }}</span>{% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
+<!-- ============================================================
+     TALKS SECTION
+     Add new talks in _data/talks.yml.
+     ============================================================ -->
+<section id="talks">
+  <h2 class="section-title">Invited Talks</h2>
+  <ul class="talk-list">
+    {% for talk in site.data.talks %}
+    <li class="talk-item">
+      <div class="talk-title">{{ talk.title }}</div>
+      <div class="talk-meta">{{ talk.event }} &middot; {{ talk.location }} &middot; {{ talk.date }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
+<!-- ============================================================
+     PATENTS SECTION
+     Add new patents in _data/patents.yml.
+     ============================================================ -->
+<section id="patents">
+  <h2 class="section-title">Patents</h2>
+  <ul class="patent-list">
+    {% for patent in site.data.patents %}
+    <li class="patent-item">
+      <div class="patent-title">{{ patent.title }}</div>
+      <div class="patent-meta">Patent {{ patent.number }} &middot; Issued {{ patent.issued }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
