@@ -43,7 +43,7 @@ layout: default
       <!-- ── END BIO TEXT ── -->
 
       <div class="about-links">
-        <a class="btn" href="{{ site.baseurl }}/assets/cv/Jaya_Narain_CV_2026.pdf" download>CV ↓</a>
+        <a class="btn" href="{{ site.baseurl }}/assets/cv/Jaya Narain_CV_2026.pdf" download>CV ↓</a>
         <a class="btn" href="https://scholar.google.com/citations?hl=en&user=OLI7LWAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar ↗</a>
         <a class="btn" href="https://www.linkedin.com/in/jaya-narain-5b6b0963" target="_blank">LinkedIn ↗</a>
       </div>
@@ -66,7 +66,7 @@ layout: default
       <div class="pub-row">
         <span class="pub-year">{{ pub.year }}</span>
         <div class="pub-content">
-          <div class="pub-title">{{ pub.title }}</div>
+          <div class="pub-title">{{ pub.title }}{% if pub.pdf %} <a class="pub-pdf" href="{{ pub.pdf }}" target="_blank">(link)</a>{% endif %}</div>
           <div class="pub-authors">{{ pub.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip }}</div>
           <span class="pub-venue">{{ pub.venue }}</span>
           {% if pub.note %}<span class="pub-note">— {{ pub.note }}</span>{% endif %}
