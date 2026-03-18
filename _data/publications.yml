@@ -25,14 +25,14 @@
   year: 2025
 
 - authors: "Juyeon Heo, Christina Heinze-Deml, Shirley Ren, Oussama Elachqar, Udhay Nallasamy, Andy Miller, **Jaya Narain**"
-  title: "How Consistent Are LLMs Internally When They Follow Instructions?"
-  venue: "Preprint"
+  title: "Do LLMs 'know' internally when they follow instructions?"
+  venue: "ICLR"
   year: 2025
   note: "primary research mentor"
 
 - authors: "Juyeon Heo, Miao Xiong, Christina Heinze-Deml, **Jaya Narain**"
   title: "Do LLMs Estimate Uncertainty Well in Instruction-Following?"
-  venue: "Preprint"
+  venue: "ICLR"
   year: 2025
   note: "primary research mentor"
 
@@ -53,11 +53,10 @@
   year: 2024
   note: "*equal contribution"
 
-- authors: "Colin Lea&#42;, Dianna Yee&#42;, **Jaya Narain**, Zifang Huang, Lauren Tooley, Jeffrey Bigham, Leah Findlater"
+- authors: "Colin Lea;, Dianna Yee, **Jaya Narain**, Zifang Huang, Lauren Tooley, Jeffrey Bigham, Leah Findlater"
   title: "Latent Phrase Matching for Dysarthric Speech"
   venue: "Interspeech"
   year: 2023
-  note: "*equal contribution"
 
 - authors: "Colin Lea, Zifang Huang, **Jaya Narain**, Lauren Tooley, Dianna Yee, Dung Tien Tran, Panayiotis Georgiou, Jeffrey Bigham, Leah Findlater"
   title: "From User Perceptions to Technical Improvement: Enabling People Who Stutter to Better Use Speech Recognition"
