@@ -32,21 +32,21 @@
   title: "Do LLMs 'know' internally when they follow instructions?"
   venue: "ICLR"
   year: 2025
-  note: "primary research mentor"
+  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2410.14516"
 
 - authors: "Juyeon Heo, Miao Xiong, Christina Heinze-Deml, **Jaya Narain**"
   title: "Do LLMs Estimate Uncertainty Well in Instruction-Following?"
   venue: "ICLR"
   year: 2025
-  note: "primary research mentor"
+  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2410.14582"
 
 - authors: "Ilker Demirel, Karan Thakkar, Benjamin Elizalde, Miquel Espi Marques, Shirley Ren, **Jaya Narain**"
   title: "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition"
   venue: "Workshop on Learning from Time Series for Health, NeurIPS"
   year: 2025
-  note: "primary research mentor"
+  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2509.10729"
 
 - authors: "Amrit Romana, **Jaya Narain**, Tien Dung Tran, Andrea Davis, Jason Fong, Ramya Rasipuram, Vikram Mitra"
