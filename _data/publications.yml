@@ -7,7 +7,6 @@
   title: "RelCon: Relative Contrastive Learning for a Motion Foundation Model for Wearable Data"
   venue: "ICLR"
   year: 2025
-  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2411.18822"
 
 - authors: "**Jaya Narain**, Vasudha Kowtha, Colin Lea, Lauren Tooley, Dianna Yee, Vikram Mitra, Zifang Huang, Miquel Espi Marques, Jon Huang, Carlos Avendano, Shirley Ren"
@@ -32,21 +31,18 @@
   title: "Do LLMs 'know' internally when they follow instructions?"
   venue: "ICLR"
   year: 2025
-  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2410.14516"
 
 - authors: "Juyeon Heo, Miao Xiong, Christina Heinze-Deml, **Jaya Narain**"
   title: "Do LLMs Estimate Uncertainty Well in Instruction-Following?"
   venue: "ICLR"
   year: 2025
-  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2410.14582"
 
 - authors: "Ilker Demirel, Karan Thakkar, Benjamin Elizalde, Miquel Espi Marques, Shirley Ren, **Jaya Narain**"
   title: "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition"
   venue: "Workshop on Learning from Time Series for Health, NeurIPS"
   year: 2025
-  note: "research mentor"
   pdf: "https://arxiv.org/pdf/2509.10729"
 
 - authors: "Amrit Romana, **Jaya Narain**, Tien Dung Tran, Andrea Davis, Jason Fong, Ramya Rasipuram, Vikram Mitra"
